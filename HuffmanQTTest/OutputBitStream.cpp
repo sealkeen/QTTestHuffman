@@ -22,6 +22,7 @@ void OutputBitStream::Write(int b) {
 		*_outputStream << (currentByte);
 		currentByte = 0;
 		numBitsFilled = 0;
+
 	}
 }
 
